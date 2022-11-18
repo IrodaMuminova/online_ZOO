@@ -1,0 +1,16 @@
+.bamboo{
+    background-image: url(../../images/Illustrations.png);
+    // height: 467px;
+    padding: 260px;
+}
+@media only screen and (max-width:640px){
+    .bamboo{
+        background-image: url(../../images/Illustration-table.png);
+        padding: 150px;
+    }
+}
+@media only screen and (max-width:320px){
+    .bamboo{
+        background-image: url(../../images/Illustration-mobile.png);
+    }
+}
